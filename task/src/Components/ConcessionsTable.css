@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+
+
+.concessions-table-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: "Public Sans" , sans-serif;   
+
+
+  }
+
+  .concessions-table-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filters input,
+  .filters select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    outline: none;
+  }
+  
+  .concessions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+
+  }
+  
+  .concessions-table th,
+  .concessions-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .concessions-table th {
+    background-color: #f7f7f7;
+  }
+  
+  .name-cell {
+    display: flex;
+    align-items: center;
+  }
+  
+  .name-cell .dot {
+    width: 10px;
+    height: 10px;
+    background-color: gold;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .goal-cell {
+    display: flex;
+    align-items: center;
+  }
+  
+  .goal-cell .progress-bar {
+    width: 100px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  .goal-cell .progress {
+    height: 100%;
+    background-color: gold;
+    border-radius: 5px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding-left: 70%;
+  }
+  
+  .pagination button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    color: rgba(111, 107, 125, 1);
+
+  }
+  
+  .pagination button.active,
+  .pagination button:hover {
+    background-color: #f1c40f;
+    color: #fff;
+  }
+  .idd {
+color:  rgba(56, 144, 226, 1);
+
+  }
+  .iddd {
+    color: rgba(232, 203, 50, 1);
+
+  }
+
+  .custom-button {
+    background-color: #ffd700; 
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    height:  50px;
+
+    
+    
+    
+  }
+  .btnn {
+    width: 100%;
+
+    
+  }
+  
+  .custom-button:hover {
+    background-color: #e6c200; 
+  }
+  .tbt {
+    height:  100px;
+
+  }
+  .tabl  {
+    color :  #4B465C;
+
+    
+  }
+.ell {
+  font-weight: bold;
+
+}
+.lista {
+font-size: 25px;
+line-height: 24px;
+  color: rgba(111, 107, 125, 1);
+  margin-bottom: 15px;
+
+
+}
+.inn{
+  width: 30%;
+  margin-right: 1%;
+  color: rgba(111, 107, 125, 1);
+
+}
+.in{
+  width: 16%;
+  margin-right: 1%;
+  color: rgba(111, 107, 125, 1);
+
+
+}
+.dt{
+  font-family: Sora;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+}
+.dt form {
+  display: flex;
+  flex-direction: row;
+
+}
+.dtt {
+  font-family: Sora;
+
+}
